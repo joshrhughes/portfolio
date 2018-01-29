@@ -39,7 +39,7 @@
             $.ajax({
                 url: "https://formspree.io/josh@mtnpine.us",
                 method: "POST",
-                data: { message: "hello!" },
+                data: dataString,
                 dataType: "json",
                 success: function () {
                     $('.successContent').fadeIn(1000);
