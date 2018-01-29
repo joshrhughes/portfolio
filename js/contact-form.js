@@ -24,25 +24,25 @@
             return pattern.test(emailAddress);
         };
 
-      
+      //Defaulting to Formspree.io to have a free hosted page
 
-        if (validEmail(email) && (message.length > 1) && (name.length > 1)) {
-            $.ajax({
-                type: "POST",
-                url: "send-mail.php",
-                data: dataString,
-                success: function () {
-                    $('.successContent').fadeIn(1000);
-                    $('.errorContent').fadeOut(500);
-                }
-            });
-        }
-        else {
-            $('.errorContent').fadeIn(1000);
-            $('.successContent').fadeOut(500);
-        }
-        return false;
-    });
+    //     if (validEmail(email) && (message.length > 1) && (name.length > 1)) {
+    //         $.ajax({
+    //             type: "POST",
+    //             url: "send-mail.php",
+    //             data: dataString,
+    //             success: function () {
+    //                 $('.successContent').fadeIn(1000);
+    //                 $('.errorContent').fadeOut(500);
+    //             }
+    //         });
+    //     }
+    //     else {
+    //         $('.errorContent').fadeIn(1000);
+    //         $('.successContent').fadeOut(500);
+    //     }
+    //     return false;
+    // });
 
 
 
