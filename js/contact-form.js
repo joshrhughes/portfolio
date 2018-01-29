@@ -26,7 +26,7 @@
 
       /* Defaulting to Formspree.io to have a free hosted page */
 
-        if (validEmail(email) && (message.length > 1) && (name.length > 1)) {
+      /*  if (validEmail(email) && (message.length > 1) && (name.length > 1)) {
             /*$.ajax({
                 type: "POST",
                 url: "send-mail.php",
@@ -35,7 +35,7 @@
                     $('.successContent').fadeIn(1000);
                     $('.errorContent').fadeOut(500);
                 }
-            });*/
+            });
             $.ajax({
                 url: "https://formspree.io/josh@mtnpine.us",
                 method: "POST",
@@ -48,7 +48,7 @@
             $('.successContent').fadeOut(500);
         }
         return false;
-    });
+    });*/
 
 
   
