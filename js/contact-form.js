@@ -47,8 +47,8 @@
             $('.errorContent').fadeIn(1000);
             $('.successContent').fadeOut(500);
         }
-        return false;
-    });*/
+        return false;*/
+    });
 
 
   
