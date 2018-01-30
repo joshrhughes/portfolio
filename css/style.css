@@ -2791,6 +2791,8 @@ header.header-prepare .nav-bar-icon > span::after {
         letter-spacing: 0;
         font-size: 46px;
     }
+    .splash {
+    background-image: url('../img/full/mountain-small.jpg');
 }
 
 @media (max-width: 767px) {
