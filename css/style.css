@@ -2791,17 +2791,17 @@ header.header-prepare .nav-bar-icon > span::after {
         letter-spacing: 0;
         font-size: 46px;
     }
-    .splash {
+    /* .splash {
     background-image: url('../img/full/mountain-small.jpg');
-}
+} */
 
 @media (max-width: 767px) {
     .intro-title {
         letter-spacing: 0;
         font-size: 30px;
     }
-    .splash {
-    background-image: url('../img/full/mountain-small.jpg');
+    /* .splash {
+    background-image: url('../img/full/mountain-small.jpg'); */
 }
 }
 
