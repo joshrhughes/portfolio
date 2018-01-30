@@ -2798,6 +2798,9 @@ header.header-prepare .nav-bar-icon > span::after {
         letter-spacing: 0;
         font-size: 30px;
     }
+    .splash {
+    background-image: url('../img/full/mountain-small.jpg');
+}
 }
 
 /*------------------------------------------------------------------*/
@@ -3168,7 +3171,6 @@ ul.icon-tab-nav, .icon-tab-nav ul {
 .pricing-padding-b {
     padding-bottom: 30px;
 }
-
 
 
 .pricing-title, .pricing-price, .pricing-features, .pricing-button {
@@ -3606,6 +3608,13 @@ form .error {
 /*------------------------------------------------------------------*/
 /* Content Box (Services Box, Featured Box, icon-box, etc...) */
 /*------------------------------------------------------------------*/
+
+
+.splash{
+    background-image: url('../img/full/mountain.jpg');
+}
+
+
 
 .content-box, .content-box-with-bg {
     position: relative;
