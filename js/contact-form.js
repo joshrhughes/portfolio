@@ -37,7 +37,7 @@
                 }
             });*/
             $.ajax({
-                url: "https://formspree.io/josh@mtnpine.us",
+                url: "https://formspree.io/hello@joshuaryanhugh.es",
                 method: "POST",
                 data: dataString,
                 dataType: "json",
