@@ -4,9 +4,9 @@
 @import url("./plugins/owl.carousel.css");
 @import url("./plugins/magnific-popup.css");
 
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic);
+/* @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic);
 @import url(https://fonts.googleapis.com/css?family=Work+Sans:400,200,300,500,600,700,800);
-@import url(https://fonts.googleapis.com/css?family=Ubuntu:400,300,400italic,500,500italic,700,700italic,300italic);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:400,300,400italic,500,500italic,700,700italic,300italic); */
 
 
 /*
@@ -60,7 +60,6 @@
 
 
 
-
 /*==========================================================================================================*/
 /* BASIC     ||---------------------------- */
 /*==========================================================================================================*/
@@ -69,9 +68,108 @@
 /* General Style */
 /*------------------------------------------------------------------*/
 
+
+@font-face {
+    font-family: 'camptonblack';
+    src: url('./fonts/rene_bieder_-_campton_black-webfont.woff2') format('woff2'),
+         url('./fonts/rene_bieder_-_campton_black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'camptonbold';
+    src: url('./fonts/rene_bieder_-_campton_bold-webfont.woff2') format('woff2'),
+         url('./fonts/rene_bieder_-_campton_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'camptonbook';
+    src: url('./fonts/rene_bieder_-_campton_book-webfont.woff2') format('woff2'),
+         url('./fonts/rene_bieder_-_campton_book-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'camptonextrabold';
+    src: url('./fonts/rene_bieder_-_campton_extrabold-webfont.woff2') format('woff2'),
+         url('./fonts/rene_bieder_-_campton_extrabold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'camptonextralight_italic';
+    src: url('./fonts/rene_bieder_-_campton_extralight_italic-webfont.woff2') format('woff2'),
+         url('./fonts/rene_bieder_-_campton_extralight_italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'camptonextralight';
+    src: url('./fonts/rene_bieder_-_campton_extralight-webfont.woff2') format('woff2'),
+         url('./fonts/rene_bieder_-_campton_extralight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'camptonlight';
+    src: url('./fonts/rene_bieder_-_campton_light-webfont.woff2') format('woff2'),
+         url('./fonts/rene_bieder_-_campton_light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'camptonmedium_italic';
+    src: url('./fonts/rene_bieder_-_campton_medium_italic-webfont.woff2') format('woff2'),
+         url('./fonts/rene_bieder_-_campton_medium_italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'camptonmedium';
+    src: url('./fonts/rene_bieder_-_campton_medium-webfont.woff2') format('woff2'),
+         url('./fonts/rene_bieder_-_campton_medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'camptonsemibold';
+    src: url('./fonts/rene_bieder_-_campton_semibold-webfont.woff2') format('woff2'),
+         url('./fonts/rene_bieder_-_campton_semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'camptonthin_italic';
+    src: url('./fonts/rene_bieder_-_campton_thin_italic-webfont.woff2') format('woff2'),
+         url('./fonts/rene_bieder_-_campton_thin_italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'camptonthin';
+    src: url('./fonts/rene_bieder_-_campton_thin-webfont.woff2') format('woff2'),
+         url('./fonts/rene_bieder_-_campton_thin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
 body {
-    color: #626262;
-    font-family: "Open Sans",sans-serif;
+    color: black;
+    font-family: "camptonthin",sans-serif;
     font-size: 14px;
     font-weight: 400;
     line-height: 1.6;
@@ -278,8 +376,6 @@ body {
 
 
 
-
-
 img {
     border: 0px none;
     outline: 0px none;
@@ -328,7 +424,7 @@ object {
 /* Font Style */
 
 p, .nav-menu {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'camptonbook', sans-serif;
 }
 
     h1, h2, h3, h4, h5, h6,
@@ -340,12 +436,9 @@ p, .nav-menu {
     .overlay-menu-nav,
     .accordion .accordion-title, .toggle .toggle-title {
         /*font-family: 'Work Sans', sans-serif;*/
-        font-family: 'Ubuntu', sans-serif;
+        font-family: 'camptonthin', sans-serif;
     }
 
-.visit{
-    
-}
 
 
 /*------------------------------------------------------------------*/
@@ -2623,7 +2716,7 @@ header.header-prepare .nav-bar-icon > span::after {
         color: #aaa;
         font-weight: 400;
         font-size: 14px;
-        font-family:"Open Sans",sans-serif;
+        font-family:"camptonextrabold",sans-serif;
         line-height:26px;
     }
 
