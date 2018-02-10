@@ -2985,11 +2985,6 @@ header.header-prepare .nav-bar-icon > span::after {
 }
 
 
-.experience {
-    width: 50%;
-
-}
-
 
 /*------------------------------------------------------------------*/
 /* Team Box */
@@ -3351,6 +3346,7 @@ ul.icon-tab-nav, .icon-tab-nav ul {
     border-bottom: 1px solid #eee;
     border-right: 1px solid #eee;
     border-left: 5px solid #eee;
+    text-align: center;
 }
 
 .history-year {
@@ -3373,6 +3369,23 @@ ul.icon-tab-nav, .icon-tab-nav ul {
 .history-content {
     margin-bottom: 0;
 }
+
+#experience {
+    width: 50%;
+}
+
+.fb .apto{
+    margin-top: -7vh;
+}
+.ga{
+    margin-top: -3vh;
+}
+.cyphr{
+    margin-top: -3vh;
+}
+
+
+
 
 /*------------------------------------------------------------------*/
 /* Client Logo */
@@ -3646,7 +3659,7 @@ form .error {
     padding-top: 100px;
     padding-bottom: 50px;
     /* background-image: url('../img/topogreen.jpg'); */
-    background: #6a6a6a;
+    background: #5b665b;
 }
 
     /*------------------------------------------------------------------*/
@@ -3688,8 +3701,8 @@ form .error {
                 }
 
                 .footer .social li a:hover {
-                    background: #5b665b none repeat scroll 0 0;
-                    color: #f7f7f5;
+                    background: #f7f7f5 none repeat scroll 0 0;
+                    color: #5b665b;
                 }
 
 
@@ -3928,6 +3941,7 @@ form .error {
     margin: 0px;
     padding: 15px;
     display: block;
+    text-align: center;
 }
 
 
