@@ -738,13 +738,13 @@ i.right {
 }
 
 .btn-black {
-    background-color: #6a6a6a;
+    background-color: #5b665b;
     border-color: transparent;
     color: #f7f7f5;
 }
 
     .btn-black:hover {
-        background-color: #5b665b;
+        background-color: #6a6a6a;
         border-color: transparent;
         color: #f7f7f5;
     }
@@ -3051,8 +3051,8 @@ header.header-prepare .nav-bar-icon > span::after {
         }
 
             .team-item-img .team-item-detail .team-item-detail-inner .social li a {
-                border: 1px solid #6a6a6a;
-                color: #6a6a6a;
+                border: 1px solid #5b665b;
+                color: #5b665b;
                 display: block;
                 font-size: 14px;
                 height: 28px;
@@ -3076,7 +3076,7 @@ header.header-prepare .nav-bar-icon > span::after {
 
                 .team-item-img .team-item-detail .team-item-detail-inner .social li a:hover {
                     color: #f7f7f5;
-                    background: #6a6a6a;
+                    background: #5b665b;
                 }
 
 .team-item-info {
@@ -3645,6 +3645,8 @@ form .error {
 .footer {
     padding-top: 100px;
     padding-bottom: 50px;
+    /* background-image: url('../img/topogreen.jpg'); */
+    background: #6a6a6a;
 }
 
     /*------------------------------------------------------------------*/
@@ -3662,7 +3664,8 @@ form .error {
         }
 
             .footer .social li a {
-                border: 1px solid #6a6a6a;
+                border: 1px solid #f7f7f5;
+                color: #f7f7f5;
                 display: block;
                 font-size: 14px;
                 height: 30px;
@@ -3685,7 +3688,7 @@ form .error {
                 }
 
                 .footer .social li a:hover {
-                    background: #6a6a6a none repeat scroll 0 0;
+                    background: #5b665b none repeat scroll 0 0;
                     color: #f7f7f5;
                 }
 
