@@ -440,7 +440,13 @@ p, .nav-menu {
         font-family: 'camptonthin', sans-serif;
     }
 
+.port {
+    margin: 2vh 2vh;
+}
 
+#visit {
+    padding: 15px 39.2px !important;
+}
 
 /*------------------------------------------------------------------*/
 /* Typography Style */
@@ -744,15 +750,15 @@ i.right {
 }
 
     .btn-black:hover {
-        background-color: #6a6a6a;
-        border-color: transparent;
-        color: #f7f7f5;
+        background-color: #f7f7f5;
+        border-color: #5b665b;
+        color: #5b665b;
     }
 
 .btn-color {
     background-color: #5b665b;
     border-color: transparent;
-    color: #f7f7f5;
+    color: #5b665b;
 }
 
     .btn-color:hover {
