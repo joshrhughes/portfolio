@@ -454,13 +454,18 @@ p, .nav-menu {
 }
 
 .tech {
-    width: 40%;
+    width: 30%;
     margin-bottom: 10px;
+}
+
+.tech-text {
+    font-family: 'camptonbook';
 }
 
 .about {
     text-align: center;
     margin-bottom: 10px;
+    font-family: 'camptonmedium';
 }
 
 /*------------------------------------------------------------------*/
@@ -514,12 +519,14 @@ h6 {
     text-transform: uppercase;
     font-weight: 600;
     letter-spacing: 1px;
+    font-family: 'camptonthin';
 }
 
 h1.alt-title {
     font-size: 22px;
     margin-bottom: 25px;
 }
+
 
 h2.alt-title {
     font-size: 20px;
@@ -2953,7 +2960,10 @@ header.header-prepare .nav-bar-icon > span::after {
 }
 
 
-
+.categories-filter {
+    font-family: 'camptonbook';
+    color: #5b665b !important;
+}
 
 
 /*==========================================================================================================*/
@@ -3259,6 +3269,7 @@ ul.icon-tab-nav, .icon-tab-nav ul {
 
 .counter-sub-title {
     margin-bottom: 0;
+    font-family: 'camptonmedium';
 }
 
 
@@ -3379,6 +3390,7 @@ ul.icon-tab-nav, .icon-tab-nav ul {
 }
 
 .history-title {
+    font-family: 'camptonmedium';
 }
 
 .history-sub-title {
