@@ -222,7 +222,7 @@ body {
 .bg-image {
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 120%;
     display: block;
     overflow: hidden;
     position: relative;
@@ -230,6 +230,11 @@ body {
     /*background-attachment: fixed;*/
 }
 
+@media (max-width: 767px) {
+    .bg-img-sm {
+        background-size: 500% !important;
+    }
+}
 .bg-fixed {
     background-attachment: fixed;
 }
