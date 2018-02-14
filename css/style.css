@@ -238,6 +238,9 @@ body {
     .bg-img-sm {
         background-size: 500% !important;
     }
+    .order {
+        order:1;
+    }
 }
 .bg-fixed {
     background-attachment: fixed;
